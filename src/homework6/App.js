@@ -27,7 +27,7 @@ function App() {
     return (
         <div>
             <div>
-                <p><b>~*~*~ I'm a Front-End Developer with Git ~*~*~ </b></p>
+                <p><b>~*~*~ I'm a Front-End Developer with PASV ~*~*~ </b></p>
                 {Array(currentCounters).fill(Row())}
             </div>
 
