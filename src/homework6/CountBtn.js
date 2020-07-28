@@ -1,18 +1,16 @@
 import React from 'react';
 
-function Counter(props) {
-
-    console.log(props)
-    let {value, action} = props;
+function CountBtn(props) {
 
     const send = () => {
-        action(value)
+        props.action(props.value + props.count)
     }
 
+
     return (
-        <button onClick={send}>{value}</button>
+        <button onClick={send}>{props.value}</button>
 
     );
 }
 
-export default Counter;
+export default CountBtn;
