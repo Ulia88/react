@@ -38,6 +38,12 @@
 }
 
 body {
-  background-image: url(./images/Vector.jpg);
+  background-image: url(./images/frog.jpg);
   height: 100px;
+  font-family: "Al Bayan";
+}
+
+.title {
+  display: inline-block;
+  width: 8rem;
 }
